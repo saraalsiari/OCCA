@@ -320,7 +320,7 @@ img.avatar {
 }
 
 span.psw {
-  float: right;
+  float: none;
   padding-top: 16px;
 }
 
