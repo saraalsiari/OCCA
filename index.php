@@ -61,6 +61,13 @@ window.onclick = function(event) {
                 <div class="container">
                     <textarea id="code" name="code" placeholder="Enter your code here..." rows="20" cols="50"></textarea>
                 </div>
+             <?php
+              var lines = $('textarea').val().split('\n');
+             for(var i = 0;i < lines.length;i++){
+              //code here using lines[i] which will give you each line
+             echo lines.length
+            }
+             ?>
                 <br><br>
         
   <!-- هذي ليش مقفلة هنا مو المفروض بعد تاق الفورم -->      
